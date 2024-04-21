@@ -1,0 +1,56 @@
+@media only screen and (min-width:768px){
+    ion-icon{
+        display: none;
+    }
+
+
+    nav{
+        display: block;
+
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-evenly;
+        
+        
+        
+    }
+
+
+    .cs-wrapper{
+        grid-template-columns: auto auto ;
+    }
+
+
+    .cs-images-small img{
+        display: flex;
+        margin: 0.3rem;
+       
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width:1200px){
+
+   ion-icon{
+        display: none;
+    }
+
+
+    nav{
+        display: block;
+
+            display: flex;
+            flex-grow: 1;
+            justify-content: space-evenly;
+        
+        
+            
+    }
+    .banner{
+        background-size: contain;
+    }
+}

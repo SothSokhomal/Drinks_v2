@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:#FFE69A;
+    height: 100vh;
+}
+
+ion-icon {
+    width: 64px;
+    height: 64px;
+}
+
+
+header{
+    padding: 1rem;
+
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: 'sans-serif';
+
+   
+    
+
+}
+
+
+a:hover{
+    text-decoration: underline;
+
+}
+nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+
+
+    display: none;
+}
+
+header{
+    /* display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 1rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url('image/Summer_Cocktails_Hero_MB_3_1000x1290_51e6ed5f-a609-4d3d-945f-9effc15311d8.webp');
+    background-position: top left;
+    background-size: cover;
+    object-fit: cover;
+
+}
+
+.sect-title{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+.teq{
+    height: 500px;
+    width: 300px;
+    background-color:#FAF2DA;
+    border-radius: 15px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teq img{
+    width: 300px;
+    height: 400px;
+
+    transition: all 500ms;
+
+}
+
+.teq img:hover{
+    transform: scale(0.9);
+}
+
+
+.teq h1{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.s-btn{
+    width: 90%;
+    height: 40px;
+    background-color: #91C788;
+
+    transition: all 500ms;
+}
+
+.s-btn:hover{
+    background-color: aliceblue;
+
+}
+.teq-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.type-cocktail{
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+}
+.cocktail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cocktail-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1rem;
+    justify-content: center;
+    align-items:center ;
+}
+
+.cocktail h1{
+    font-size: 30px;
+    text-align: center;
+
+} 
+
+.cocktail img{
+    width: 340px;
+    height: 420px;
+    border-radius: 10px;
+
+    transition: all 500ms;
+}
+
+
+.cocktail img:hover{
+    transform: translateY(-15px);
+}
+
+
+.cs-wrapper{
+    display: grid;
+    grid-template-rows: auto ;
+    gap: 5px;
+
+
+    justify-content: center;
+    align-items: center;
+}
+.cs-images-big{
+    background-image: url('./image/comingsoon1.jpg');
+    background-position: top center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+    /* background-color: #FAF2DA; */
+
+
+  
+}
+
+.cs-images-big:hover{
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.cs-images-small img{
+ 
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    border: 3px solid black;
+    /* background-color: #75622a; */
+
+
+  
+}
+
+
+.cs-images-small img:hover{
+    box-shadow: 0 0 4px black;
+}
+
+
+footer{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer ion-icon{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.f_de{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
